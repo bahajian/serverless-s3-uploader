@@ -2,15 +2,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/README-Template">
+  <a href="https://github.com/bahajian/serverless-s3-uploader">
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">README-Template</h3>
+  <h1 align="center">Serverless S3 Uploader</h1>
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/bahajian/Template/edit/master"><strong>Explore the docs »</strong></a>
-    <br />
   </p>
 </p>
 
@@ -27,33 +23,15 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>    
   </ol>
 </details>
+
+
 
 <!-- ABOUT THE PROJECT -->
 ## About
 
-# Serverless S3 Uploader
+# 
 
 The Serverless S3 Uploader allows you to upload JPG files to Amazon S3 buckets from your web applications using pre-signed URLs.
 
@@ -69,13 +47,6 @@ Important: this application uses various AWS services and there are costs associ
 ├── template.yaml               <-- SAM template
 ```
 
-See this [YouTube video walkthrough](https://www.youtube.com/watch?v=mw_-0iCVpUc&list=PLJo-rJlep0EAY0nMNBv0MZ487l1tOFAjh&index=7) of how uploading to S3 works with presigned URLs.
-
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
@@ -87,7 +58,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section should list any major frameworks that you built your project using. 
 * [Python](https://python.com)
 * [Nodejs](https://node.com)
 * [React](https://react.com)
@@ -174,10 +145,7 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
-## License
 
-Distributed under the Bahram License. See `LICENSE` for more information.
 
 
 
@@ -361,9 +329,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+<!-- LICENSE -->
 ## License
-<<<<<<< HEAD
-[MIT](https://choosealicense.com/licenses/mit/)
-=======
-[MIT](https://choosealicense.com/licenses/mit/)
->>>>>>> cef72c56ce915b426e74b9b12c3b5b2ed5864e5f
+
+Distributed under the Bahram([TechHeed](https://techheed.ca)) License. See `LICENSE` for more information.
