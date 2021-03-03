@@ -20,7 +20,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about The Project">About The Project</a></li>
+    <li><a href="#about The Project">About</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -46,50 +46,12 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    
+    <li><a href="#acknowledgements">Acknowledgements</a></li>    
   </ol>
 </details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About
 
 # Serverless S3 Uploader
 
