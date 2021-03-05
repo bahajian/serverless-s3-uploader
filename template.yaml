@@ -2,11 +2,8 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: Serverless S3 Uploader - upload files to S3 buckets from your web applications using pre-signed URLs.
 
-# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
   Api:
-    # Allows any site to call these APIs (can restrict by replacing asterisk with site name)
-    # Automatically adds AllowMethods with a list of methods for this API
     EndpointConfiguration: EDGE      
     Cors:
       AllowMethods: "'OPTIONS,GET'"
@@ -33,7 +30,6 @@ Resources:
             - "*"
 
   S3UploaderFunction:
-    # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Type: AWS::Serverless::Function 
     Properties:
       CodeUri: s3UploaderFunction/
