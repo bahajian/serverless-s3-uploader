@@ -1,6 +1,7 @@
 'use strict'
 
 const AWS = require('aws-sdk')
+const uuid = require('uuid')
 AWS.config.update({ region: process.env.AWS_REGION || 'us-east-1' })
 const s3 = new AWS.S3()
 
@@ -12,7 +13,8 @@ exports.handler = async (event) => {
 }
 
 const getUploadURL = async function() {
-  const actionId = parseInt(Math.random()*10000000)
+  //const actionId = parseInt(Math.random()*10000000)
+  const actionId = uuid.v4()
   
   const s3Params = {
     Bucket: process.env.UploadBucket,

@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "Bahram, Amazon Web Services",
-  "license": "MIT",
+  "license": "TH",
   "dependencies": {
     "aws-sdk": "^2.714.0",
     "uuid": "^8.3.2"

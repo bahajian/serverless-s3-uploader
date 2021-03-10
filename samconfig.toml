@@ -3,7 +3,7 @@ version = 0.1
 [default.deploy]
 [default.deploy.parameters]
 stack_name = "MentorFileUploader"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1ryw0cig8zj9k"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-f16ky8q7oh5g"
 s3_prefix = "MentorFileUploader"
 region = "ca-central-1"
 confirm_changeset = true
